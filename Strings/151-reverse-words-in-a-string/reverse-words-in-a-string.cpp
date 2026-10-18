@@ -5,7 +5,7 @@ public:
         vector<string> words;
         string word;
 
-        while (ss >> word) { //It will automatically ignore the spaces when using >>.
+        while (ss >> word) { //It will automatically ignore the spaces when using >>. (it read one word at a time)
             words.push_back(word);
         }
 
